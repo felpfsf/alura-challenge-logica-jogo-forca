@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+/*  --------------------->>>>  Reset  <<<<---------------------   */
+/*  --------------------->>>>  Global  <<<<---------------------   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --hue: 227;
+  --light-blue-100: hsl(var(--hue), 60%, 97%);
+  --light-blue-200: hsl(calc(var(--hue) + 2), 52%, 96%);
+
+  --dark-blue-300: hsl(calc(var(--hue) - 14), 84%, 24%);
+  --dark-blue-400: hsl(calc(var(--hue) - 11), 87%, 20%);
+
+  --gray-400: hsl(210, 9%, 31%);
+  --gray-500: hsl(210, 10%, 23%);
+
+  --header-height: 9.6rem;
+
+  font-size: 62.5%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: var(--light-blue-100);
+}
+
+a,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+i {
+  color: var(--gray-500);
+  font-size: 3.2rem;
+}
+
+h1 {
+  color: var(--dark-blue-300);
+}
+
+textarea {
+  resize: none;
+}
+
+.wrapper {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}

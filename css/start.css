@@ -1,0 +1,43 @@
+/*  --------------------->>>>  Imports  <<<<---------------------   */
+
+@import url("./global.css");
+@import url("./nav.css");
+@import url("./footer.css");
+@import url('./button-style.css');
+
+
+/*  --------------------->>>>  Start Game Page  <<<<---------------------   */
+
+main .wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 18rem;
+}
+
+main .main-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.7rem;
+}
+
+main .main-menu .button-start {
+  width: 31.7rem;
+  height: 10.5rem;
+}
+
+main .main-menu .button-addWord {
+  width: 29.3rem;
+  height: 6.7rem;
+
+  background: transparent;
+  color: var(--dark-blue-300);
+
+  border: 1px solid var(--dark-blue-300);
+}
+
+main .main-menu .button-addWord:hover {
+  transform: scale(1.1);
+  background: var(--dark-blue-300);
+  color: var(--light-blue-200);
+}

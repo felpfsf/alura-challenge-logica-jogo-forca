@@ -1,0 +1,59 @@
+/*  --------------------->>>>  Imports  <<<<---------------------   */
+
+@import url('./global.css');
+@import url('./nav.css');
+@import url('./footer.css');
+@import url('./button-style.css');
+
+/*  --------------------->>>>  Add Word Page  <<<<---------------------   */
+
+#addword-main .wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+#addword-main .addWord-input {
+  font-size: 2.4rem;
+  color: var(--dark-blue-300);
+
+  outline: none;
+
+  padding: 1rem;
+
+  background: transparent;
+
+  border-radius: 0.8rem;
+  border: none;
+
+  width: 32rem;
+  height: 30rem;
+}
+
+/*  Buttons Div  */
+#addword-main .addword-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+/* Buttons Unique Styles */
+.button-saveStart:hover {
+  transform: scale(1.05);
+}
+
+.button-cancel {
+  color: var(--dark-blue-300);
+
+  background: transparent;
+
+  border: 1px solid var(--dark-blue-300);
+}
+
+.button-cancel:hover {
+  transform: scale(1.05);
+  background: var(--dark-blue-300);
+  color: var(--light-blue-200);
+}

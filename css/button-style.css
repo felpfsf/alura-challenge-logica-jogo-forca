@@ -1,0 +1,27 @@
+.button-style {
+  width: 34.3rem;
+  height: 6.7rem;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+
+  color: #fff;
+
+  background: var(--dark-blue-300);
+
+  border: none;
+  border-radius: 2.4rem;
+
+  transition: all 0.75s ease;
+  cursor: pointer;
+}
+
+.button-style:hover {
+  transform: scale(1.1);
+  border: 1px solid var(--dark-blue-300);
+}
+
+.button-style:active {
+  filter: brightness(20);
+  border: none;
+}
