@@ -39,7 +39,7 @@ Utilitários
 
 Second Alura's Programming Challenge
 
-This is a hangman game, the user have to guess the word by typing the letters, but they have limited chances to finish it. Only UpperCase letters are accepted, no smallcase letters, numbers or special characters otherwise the app will alert the user about it.
+This is a hangman game, the user have to guess the word by typing the letters but they have limited tries to finish it. The rules are simple: only uppercase letters are accepted, no smallcase letters, numbers or special characters otherwise the app will alert the user about it.
 
 Also it has an option to add words, with at maximun of 8 characters long, to the game dictionary.
 
