@@ -15,6 +15,7 @@
 }
 
 #addword-main .addWord-input {
+  font-family: 'Inter', sans-serif;
   font-size: 2.4rem;
   color: var(--dark-blue-300);
 
@@ -28,13 +29,14 @@
   border: none;
 
   width: 32rem;
-  height: 30rem;
+  height: 24rem;
 }
 
 #addword-main p {
   font-size: 1.2rem;
   color: var(--dark-blue-400);
   text-align: left;
+  margin-bottom: 1.6rem;
 }
 
 #addword-main i {
@@ -43,6 +45,7 @@
 }
 
 /*  Buttons Div  */
+
 #addword-main .addword-buttons {
   display: flex;
   align-items: center;
@@ -51,6 +54,15 @@
 }
 
 /* Buttons Unique Styles */
+
+.button-saveStart {
+  padding-inline: 8rem;
+}
+
+.button-cancel {
+  padding-inline: 10.5rem;
+}
+
 .button-saveStart:hover {
   transform: scale(1.05);
 }

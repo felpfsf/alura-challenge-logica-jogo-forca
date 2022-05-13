@@ -1,9 +1,10 @@
 /*  --------------------->>>>  Footer  <<<<---------------------   */
 footer {
-  position: absolute;
-  bottom: 0;
+  /* position: absolute; */
+  /* bottom: 0; */
   width: 100%;
   height: 9.6rem;
+
 }
 
 footer .wrapper {
@@ -15,4 +16,5 @@ footer .wrapper {
 
 footer .wrapper ul {
   display: flex;
+  gap: 1.6rem;
 }

@@ -1,0 +1,36 @@
+/*  --------------------->>>>  Imports  <<<<---------------------   */
+
+@import url("./global.css");
+@import url("./nav.css");
+@import url("./footer.css");
+@import url('./button-style.css');
+
+
+/*  --------------------->>>>  Game Page  <<<<---------------------   */
+
+main .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.canvas-box {
+  border: 1px solid tomato;
+  height: 100vh;
+
+  display: flex;
+
+  padding: 1rem;
+}
+
+#gameCanvas {
+  border: 1px solid blue;
+  width: 100%;
+  height: 100%;
+}
+
+.game-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}

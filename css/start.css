@@ -22,18 +22,17 @@ main .main-menu {
 }
 
 main .main-menu .button-start {
-  width: 31.7rem;
-  height: 10.5rem;
+  padding-inline: 8rem;
+  padding-block: 4rem;
 }
 
 main .main-menu .button-addWord {
-  width: 29.3rem;
-  height: 6.7rem;
+  padding-inline: 3.2rem;
 
   background: transparent;
   color: var(--dark-blue-300);
 
-  border: 1px solid var(--dark-blue-300);
+  border: .1px solid var(--dark-blue-300);
 }
 
 main .main-menu .button-addWord:hover {

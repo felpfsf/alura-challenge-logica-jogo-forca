@@ -37,6 +37,8 @@ body {
   font-size: 1.6rem;
   text-align: center;
   background-color: var(--light-blue-100);
+
+  overflow: overlay;
 }
 
 a,

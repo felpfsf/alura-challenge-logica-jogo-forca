@@ -9,7 +9,7 @@
     <script src="https://unpkg.com/phosphor-icons"></script>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./css/start.css" />
+    <link rel="stylesheet" href="./css/game.css" />
 
     <title>Alura Challenge 2 | Jogo da Forca</title>
   </head>
@@ -22,19 +22,18 @@
     </header>
     <main>
       <div class="wrapper">
-        <div class="main-menu">
+        <div class="canvas-box">
+          <canvas id="gameCanvas"></canvas>
+        </div>
+
+        <div class="game-buttons">
+          <button class="button-style button-saveStart">Novo Jogo</button>
           <button
-            class="button-style button-start"
-            onclick="location.href='game.html'"
-          >
-            Começar a Jogar
-          </button>
-          <button
-            class="button-style button-addWord"
-            onclick="location.href='addword.html'"
+            class="button-style button-cancel"
+            onclick="location.href='index.html'"
             type="button"
           >
-            Adicionar nova palavra
+            Desistir
           </button>
         </div>
       </div>
