@@ -56,7 +56,8 @@ Under construction...
 
 ## 📝 License
 
-![image](https://img.shields.io/github/license/felpfsf/alura-challenge-logica-jogo-forca?style=flat-square)
+![image](https://img.shields.io/github/license/felpfsf/alura-challenge-logica-jogo-forca/?style=flat-square)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Autor
 ---
