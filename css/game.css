@@ -1,10 +1,9 @@
 /*  --------------------->>>>  Imports  <<<<---------------------   */
 
-@import url("./global.css");
-@import url("./nav.css");
-@import url("./footer.css");
+@import url('./global.css');
+@import url('./header.css');
+@import url('./footer.css');
 @import url('./button-style.css');
-
 
 /*  --------------------->>>>  Game Page  <<<<---------------------   */
 
@@ -12,6 +11,8 @@ main .wrapper {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  height: calc(125vh - var(--header-height));
+  /* height: 100vh; */
 }
 
 .canvas-box {

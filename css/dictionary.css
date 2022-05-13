@@ -1,20 +1,23 @@
 /*  --------------------->>>>  Imports  <<<<---------------------   */
 
 @import url('./global.css');
-@import url('./nav.css');
+@import url('./header.css');
 @import url('./footer.css');
 @import url('./button-style.css');
 
 /*  --------------------->>>>  Add Word Page  <<<<---------------------   */
 
-#addword-main .wrapper {
+#dictionary-main .wrapper {
   display: flex;
   justify-content: center;
   flex-direction: column;
   /* gap: 2.4rem; */
+  height: calc(85vh - var(--header-height));
+
+  border: 1px solid tomato;
 }
 
-#addword-main .addWord-input {
+#dictionary-main .dictionary-input {
   font-family: 'Inter', sans-serif;
   font-size: 2.4rem;
   color: var(--dark-blue-300);
@@ -32,21 +35,21 @@
   height: 24rem;
 }
 
-#addword-main p {
+#dictionary-main p {
   font-size: 1.2rem;
   color: var(--dark-blue-400);
   text-align: left;
   margin-bottom: 1.6rem;
 }
 
-#addword-main i {
+#dictionary-main i {
   font-size: 1.6rem;
   color: red;
 }
 
 /*  Buttons Div  */
 
-#addword-main .addword-buttons {
+#dictionary-main .dictionary-buttons {
   display: flex;
   align-items: center;
   flex-direction: column;

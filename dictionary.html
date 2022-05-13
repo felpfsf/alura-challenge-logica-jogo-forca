@@ -9,37 +9,41 @@
     <script src="https://unpkg.com/phosphor-icons"></script>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./css/start.css" />
+    <link rel="stylesheet" href="./css/dictionary.css" />
 
     <title>Alura Challenge 2 | Jogo da Forca</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="wrapper">
         <img src="./assets/logo-alura.svg" alt="" />
         <h1>Jogo da Forca</h1>
       </div>
     </header>
-    <main>
+    <main id="dictionary-main">
       <div class="wrapper">
-        <div class="main-menu">
-          <button
-            class="button-style button-start"
-            onclick="location.href='game.html'"
-          >
-            Começar a Jogar
+        <textarea
+          class="dictionary-input"
+          id="dictionary-input"
+          maxlength="8"
+          placeholder="Digite uma palavra"
+        ></textarea>
+        <p><i class="ph-warning-circle-thin"></i> Máx. 8 letras</p>
+        <div class="dictionary-buttons">
+          <button class="button-style button-saveStart">
+            Salvar e começar
           </button>
           <button
-            class="button-style button-addWord"
-            onclick="location.href='addword.html'"
+            class="button-style button-cancel"
+            onclick="location.href='title_screen.html'"
             type="button"
           >
-            Adicionar nova palavra
+            Cancelar
           </button>
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="footer">
       <div class="wrapper">
         <!-- <img src="./assets/logo-alura.svg" alt="" /> -->
         <p>Desenvolvido por Felipe F.</p>

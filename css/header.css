@@ -1,10 +1,10 @@
-/*  --------------------->>>>  nav  <<<<---------------------   */
+/*  --------------------->>>>  header  <<<<---------------------   */
 
-header {
+#header {
   display: flex;
 }
 
-header .wrapper {
+#header .wrapper {
   height: 9.6rem;
   display: flex;
   align-items: center;

@@ -1,17 +1,20 @@
 /*  --------------------->>>>  Imports  <<<<---------------------   */
 
-@import url("./global.css");
-@import url("./nav.css");
-@import url("./footer.css");
+@import url('./global.css');
 @import url('./button-style.css');
+@import url('./header.css');
+@import url('./footer.css');
 
-
-/*  --------------------->>>>  Start Game Page  <<<<---------------------   */
+/*  --------------------->>>>  Game Title Screen  <<<<---------------------   */
 
 main .wrapper {
   display: flex;
   justify-content: center;
   padding-top: 18rem;
+
+  border: 1px solid tomato;
+
+  height: calc(85vh - var(--header-height));
 }
 
 main .main-menu {
@@ -26,16 +29,16 @@ main .main-menu .button-start {
   padding-block: 4rem;
 }
 
-main .main-menu .button-addWord {
+main .main-menu .button-dictionary {
   padding-inline: 3.2rem;
 
   background: transparent;
   color: var(--dark-blue-300);
 
-  border: .1px solid var(--dark-blue-300);
+  border: 0.1px solid var(--dark-blue-300);
 }
 
-main .main-menu .button-addWord:hover {
+main .main-menu .button-dictionary:hover {
   transform: scale(1.1);
   background: var(--dark-blue-300);
   color: var(--light-blue-200);
