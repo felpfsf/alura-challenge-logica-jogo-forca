@@ -1,9 +1,9 @@
 /*  --------------------->>>>  Imports  <<<<---------------------   */
 
 @import url('./global.css');
+@import url('./buttonStyle.css');
 @import url('./header.css');
-@import url('./footer.css');
-@import url('./button-style.css');
+/* @import url('./footer.css'); */
 
 /*  --------------------->>>>  Game Page  <<<<---------------------   */
 
@@ -15,7 +15,9 @@ main .wrapper {
   /* height: 100vh; */
 }
 
-.canvas-box {
+/* ------- Canvas wrapper -------*/
+
+.canvas-wrapper {
   border: 1px solid tomato;
   height: 100vh;
 
@@ -23,6 +25,8 @@ main .wrapper {
 
   padding: 1rem;
 }
+
+/* ------- Canvas -------*/
 
 #gameCanvas {
   border: 1px solid blue;

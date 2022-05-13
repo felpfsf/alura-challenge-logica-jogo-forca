@@ -1,21 +1,23 @@
 /*  --------------------->>>>  Imports  <<<<---------------------   */
 
 @import url('./global.css');
-@import url('./button-style.css');
+@import url('./buttonStyle.css');
 @import url('./header.css');
-@import url('./footer.css');
+/* @import url('./footer.css'); */
 
 /*  --------------------->>>>  Game Title Screen  <<<<---------------------   */
 
 main .wrapper {
   display: flex;
   justify-content: center;
-  padding-top: 18rem;
+  /* padding-top: 18rem; */
 
   border: 1px solid tomato;
 
   height: calc(85vh - var(--header-height));
 }
+
+/* ------- Main Menu wrapper -------*/
 
 main .main-menu {
   display: flex;
@@ -23,6 +25,14 @@ main .main-menu {
   align-items: center;
   gap: 1.7rem;
 }
+
+main .img-title {
+  width: 65%;
+
+  padding-top: 2.4rem;
+}
+
+/* ------- Buttons Unique Styles -------*/
 
 main .main-menu .button-start {
   padding-inline: 8rem;
