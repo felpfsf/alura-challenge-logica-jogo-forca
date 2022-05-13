@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 2.4rem;
+  /* gap: 2.4rem; */
 }
 
 #addword-main .addWord-input {
@@ -29,6 +29,17 @@
 
   width: 32rem;
   height: 30rem;
+}
+
+#addword-main p {
+  font-size: 1.2rem;
+  color: var(--dark-blue-400);
+  text-align: left;
+}
+
+#addword-main i {
+  font-size: 1.6rem;
+  color: red;
 }
 
 /*  Buttons Div  */
