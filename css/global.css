@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-
 /*  --------------------->>>>  Reset  <<<<---------------------   */
 /*  --------------------->>>>  Global  <<<<---------------------   */
 
@@ -11,7 +10,8 @@
 }
 
 :root {
-  --hue: 227;
+  /*hue original value 227*/
+  --hue: 35;
   --light-blue-100: hsl(var(--hue), 60%, 97%);
   --light-blue-200: hsl(calc(var(--hue) + 2), 52%, 96%);
 

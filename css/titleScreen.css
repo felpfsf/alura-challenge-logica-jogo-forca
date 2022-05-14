@@ -3,7 +3,6 @@
 @import url('./global.css');
 @import url('./buttonStyle.css');
 @import url('./header.css');
-/* @import url('./footer.css'); */
 
 /*  --------------------->>>>  Game Title Screen  <<<<---------------------   */
 
@@ -30,13 +29,13 @@ main .img-title {
   width: 65%;
 
   padding-top: 2.4rem;
+  margin-bottom: 1rem;
 }
 
 /* ------- Buttons Unique Styles -------*/
 
 main .main-menu .button-start {
-  padding-inline: 8rem;
-  padding-block: 4rem;
+  padding: 4rem 8rem;
 }
 
 main .main-menu .button-dictionary {

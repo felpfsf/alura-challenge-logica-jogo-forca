@@ -3,7 +3,6 @@
 @import url('./global.css');
 @import url('./buttonStyle.css');
 @import url('./header.css');
-/* @import url('./footer.css'); */
 
 /*  --------------------->>>>  Add Word Page  <<<<---------------------   */
 
@@ -52,7 +51,6 @@
 }
 
 /* ------- Buttons Box -------*/
-
 
 #dictionary-main .dictionary-buttons {
   display: flex;

@@ -3,7 +3,6 @@
 @import url('./global.css');
 @import url('./buttonStyle.css');
 @import url('./header.css');
-/* @import url('./footer.css'); */
 
 /*  --------------------->>>>  Game Page  <<<<---------------------   */
 
@@ -22,8 +21,15 @@ main .wrapper {
   height: 100vh;
 
   display: flex;
+  flex-direction: column;
+  
 
   padding: 1rem;
+}
+
+.canvas-wrapper p {
+  font-size: 4rem;
+  margin-bottom: -3rem;
 }
 
 /* ------- Canvas -------*/
@@ -31,7 +37,7 @@ main .wrapper {
 #gameCanvas {
   border: 1px solid blue;
   width: 100%;
-  height: 100%;
+  height: 70%;
 }
 
 .game-buttons {
