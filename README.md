@@ -9,7 +9,6 @@
   <a href="#-Licença">License</a>
 </p>
 
-    Banner do projeto
     Em contrsução
 <img src='banner do projeto'>
 
